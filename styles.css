@@ -26,6 +26,11 @@ header{
     margin-right: 23px;
 }
 
+.link-header:hover {
+    background-color: #665AE1;
+    color: #000000;
+}
+
 .buttom-header {
     background-color: #665AE1;
     border-radius: 20.5PX;
@@ -37,6 +42,11 @@ header{
     line-height: 29px;
     color:#FFFFFF;
     cursor: pointer;
+}
+
+.buttom-header:hover {
+    background-color: #ADFF00;
+    color: #000000;
 }
 
 section {
@@ -81,4 +91,57 @@ p {
     line-height: 34px;
     color: #000000;
 
+}
+
+@media (max-width: 800px) {
+   
+   
+body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.link-header{
+display: block;
+position: relative;
+top: 20px;
+right: 50px;
+margin-bottom: 10px;
+
+
+    
+}
+.buttom-header{
+    display: block;
+    position: relative;
+    top: 10px;
+    left: -50px;
+    margin-top: 30px;
+}
+
+.img-logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+
+}
+h1 {
+    
+    font-size: 60px;
+    width: 300px;
+}
+
+h2 {
+    font-size: 41px;
+    width: 300px;
+}
+p {
+    width: 300px;
+}
+
+.buttom-main {
+    margin-bottom: 30px;
+}
 }
